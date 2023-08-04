@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responseive.css">
+    
+    <title>Blog with web</title>
+</head>
+<body>
+    <nav class="navbar background ">
+        
+            <ul class="nav_list visible">
+            <div class="logo visible"><img src="img/logo.jpg" alt="no logo"></div>
+            <li> <a href="#home">Home</a> </li>
+            <li> <a href="#Create_blog">Create Blog</a> </li>
+            
+            </ul>
+        </div>
+            <div class="rightnav visible">
+                <input type="text" name="search" id="search">
+                <button class="btn btn-sn" >Search</button>
+            </div>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        
+    </nav>
+    <section class="background firstsection">
+        <div class="box-main " id="home">
+            <div class="firsthalf">
+                <p class="textbig">Create your blog with ease.</p>
+                <p class="textsmall">Welcome to world of blog creation. You just need to add details, we create for you. </p>
+            <div class="button">
+                <button class="btn">Create blog</button>
+            </div>
+            </div>
+            <div class="secondhalf">
+                <img src="img/logo.jpg" alt="Future img">
+            </div>
+        </div>
+
+    </section>
+<hr>
+    <section class="section">
+        <div class="paras">
+            <h3>Blockchain technology</h3>
+            <p>Blockchain is a method of recording information that makes it impossible or difficult for the system to be changed, hacked, or manipulated. A blockchain is a distributed ledger that duplicates and distributes transactions across the network of computers participating in the blockchain.
+
+                Blockchain technology is a structure that stores transactional records, also known as the block, of the public in several databases, known as the “chain,” in a network connected through peer-to-peer nodes. Typically, this storage is referred to as a ‘digital ledger.’
+                
+                Every transaction in this ledger is authorized by the digital signature of the owner, which authenticates the transaction and safeguards it from tampering. Hence, the information the digital ledger contains is highly secure.</p>
+        </div>
+        <div class="image">
+            <img src="img/bchain.jpg" alt="image">
+        </div>
+    </section>
+    <hr>
+    <section class="section secnext">
+        <div class="paras">
+            <h3>Bitcoin makes money</h3>
+            <p>The Bitcoin network of miners makes money from Bitcoin by successfully validating blocks and being rewarded. Bitcoins are exchangeable for fiat currency via cryptocurrency exchanges and can be used to make purchases from merchants and retailers that accept them. Investors and speculators can make money from buying and selling bitcoins.
+            </p>
+        </div>
+        <div class="image">
+            <img src="img/bitcoin.jpg" alt="image">
+        </div>
+    </section>
+    <hr>
+    <section class="section">
+        <div class="paras">
+            <h3>Artificial Intelligence</h3>
+            <p>Artificial intelligence is the simulation of human intelligence processes by machines, especially computer systems. Specific applications of AI include expert systems, natural language processing, speech recognition and machine vision.
+                Artificial intelligence leverages computers and machines to mimic the problem-solving and decision-making capabilities of the human mind.</p>
+        </div>
+        <div class="image">
+            <img src="img/aI.jpg" alt="image">
+        </div>
+    </section>
+    
+    <section class="entry " id="Create_blog">
+        <H1>Enter details of your blog</H1>
+        <form >
+             <!-- Details -->
+        <div class="form-control">
+            <label for="name" id="label-name">
+                Title
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="name"
+                   placeholder="Enter Blog Title" />
+        </div>
+  
+        <div class="form-control">
+            <label for="email" id="label-email">
+                Email
+            </label>
+ 
+            <!-- Input Type Email-->
+            <input type="email"
+                   id="email"
+                   placeholder="Enter your email" />
+        </div>
+  
+        <div class="form-control">
+            <label for="age" id="label-age">
+                Domain name for your blog
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="age"
+                   placeholder="Enter domain name" />
+        </div>
+  
+        
+  
+        
+  
+        
+        <div class="form-control">
+            <label for="comment">
+                Description of your blog
+            </label>
+ 
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment"
+                placeholder="Enter  here">
+            </textarea>
+        </div>
+  
+        
+        <div class="form-control">
+            <label for="image">
+                Upload image 
+            </label>
+            <input type="image" >
+        </div>
+        <button type="submit" value="submit" class="bt">
+            Submit
+        </button>
+        </form>
+    </section>
+    <script src="resp.js"></script>
+</body>
+</html>

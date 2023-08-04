@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo img{
+    width: 33%;
+    border-radius: 20%;
+    border-color: beige;
+}
+.navbar{
+display: flex;
+align-items: center;
+justify-content: center;
+position: sticky;
+top: 0;
+cursor: pointer;
+
+}
+.nav_list{
+width: 50%;
+/* background-color: black; */
+display: flex;
+align-items: center;
+
+}
+
+.nav_list li{
+list-style: none;
+padding: 26px 26px;
+}
+.nav_list li a{
+text-decoration: none;
+color: whitesmoke;
+}
+.nav_list li a:hover{
+    text-decoration: none;
+    color: rgba(243, 87, 48, 0.733);
+    font-size:100%;
+    }
+.rightnav{
+    /* background-color: blueviolet; */
+    width: 50%;
+    text-align: right;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: context-menu;
+    width: 2%;
+    transition: all ease 0.5s;
+}
+#search:hover{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: context-menu;
+    width: 20%;
+}
+
+.background{
+    background: rgba(8, 8, 8, 0.5) url('img/building.jpg');
+    
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstsection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto ;
+    height: 70%;
+    
+}
+.firsthalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondhalf{
+    width: 30%;
+    transition: all ease 0.6s;
+    overflow: hidden;
+}
+.secondhalf:hover{
+    scale: 1.2;
+}
+.secondhalf img{
+    width: 90%;
+    padding: 4px 0;
+    border: 4px solid white;
+   
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+    overflow: hidden;
+}
+
+.textbig{
+    font-size: 38px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.textsmall{
+    font-size: 15px;
+}
+.button button{
+    padding: 4px 20px;
+    margin: 8px 77px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: transparent;
+    color: white;
+    
+}
+.button button:hover{
+    padding: 4px 20px;
+    margin: 8px 77px;
+    border: 2px solid transparent ;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: rgb(219, 53, 53);
+    cursor: pointer;
+}
+.btn-sn{
+    padding: 6px 10px;
+    vertical-align: middle;
+    background-color: transparent;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 2px solid white;
+    color: whitesmoke;
+
+}
+.btn-sn:hover{
+    padding: 6px 10px;
+    vertical-align: middle;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px;
+    cursor: pointer;
+    color: whitesmoke;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 9px 200px;
+    padding: 45px 7px;
+    width: 73%;
+    height: 29%;
+}
+.secnext{
+    flex-direction: row-reverse;
+}
+.paras{
+    margin: 0px 29px;
+    
+}
+.paras h3{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 200%;
+background-image: url(img/bitcoin.jpg);
+background-size: cover;
+background-position: center;
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+
+}
+.paras p{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.image img{
+    margin: 0px 1px;
+    padding: 44px -4px;
+    width: 276px;
+    border: 2px solid;
+    border-radius: 20px;
+    transition: all ease 1.5s;
+    overflow: hidden;
+}
+.image img:hover{
+    scale: 1.2;
+    
+
+}
+ /* Styling the Body element i.e. Color,
+        Font, Alignment */
+        .entry{
+        background-color: rgb(7, 6, 6);
+        font-family: cursive;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        padding: 104px 0px;
+        height: 20%;
+        }
+        .entry H1{
+            font-family: emoji;
+            background-image: url(img/back.jpg);
+            background-size: cover;
+            background-position: center;
+            background-clip: text;
+            -webkit-background-clip: text;
+            font-size: 47px;
+            text-decoration: overline;
+            color: transparent;
+
+        }
+ 
+        /* Styling the Form (Color, Padding, Shadow) */
+        form {
+            background-color: #1ba798de;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px 20px;
+            box-shadow: 2px 5px 48px rgb(255 255 255 / 41%);
+        }
+ 
+        /* Styling form-control Class */
+        .form-control {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+ 
+        /* Styling form-control Label */
+        .form-control label {
+            display: block;
+            margin-bottom: 10px;
+        }
+ 
+        /* Styling form-control input,
+        select, textarea */
+        .form-control input,
+        .form-control select,
+        .form-control textarea {
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;
+        }
+ 
+        /* Styling form-control Radio
+        button and Checkbox */
+        .form-control input[type="radio"],
+        .form-control input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
+ 
+        /* Styling Button */
+        .bt{
+            background-color: #000000;
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            font-size: 21px;
+            color: #bbbbbb;
+            display: block;
+            width: 100%;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+        .bt:hover{
+            background-color: #05c46b;
+            color: black;
+        }
+       
+        
+
+

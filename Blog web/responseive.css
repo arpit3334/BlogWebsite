@@ -1,0 +1,51 @@
+@media only screen and (max-width: 795px){
+    .section{
+        flex-direction: column;
+        margin: 8px -6px;
+    }
+    .button button{
+        width: 61%;
+    }
+    .paras p{
+        width: 125%;
+    }
+    .image img{
+        margin: 39px 1px;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+    }
+    .background {
+        background: rgba(8, 8, 8, 0.5) url(img/building.jpg);
+        
+        background-blend-mode: darken;
+    }
+}
+@media only screen and (max-width: 650px){
+    .burger{
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 35px;
+    }
+    .line{
+        width: 33px;
+        background-color: white;
+        height: 4px;
+        margin: 5px 3px;
+    }   
+    .box-main{
+        max-width: 97%;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all ease 0.5s;
+    }
+    .visible{
+        opacity: 0;
+        transition: all ease 0.5s;
+    }
+    #search{
+        width: 50%;
+    }
+}
